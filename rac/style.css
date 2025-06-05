@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Wrapper to center everything */
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Scrollable Table Container */
+.scroll-container {
+    width: 600px;  /* Adjust width */
+    height: 300px; /* Adjust height */
+    overflow: auto; /* Enable scrolling */
+    border: 2px solid black;
+    white-space: nowrap;
+}
+
+/* Table Styling */
+table {
+    width: 1200px; /* Large width for scrolling */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.side-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.scroll-btn {
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.scroll-btn:hover {
+    background-color: #0056b3;
+}

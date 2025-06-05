@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database</title>
+    <link rel="stylesheet" href="styles.css"> <!-- CSS Linked -->
+</head>
+<body>
+
+    <h2>Student Database</h2>
+
+    <div class="scroll-container">
+        <!-- Buttons Inside Container -->
+        <div class="scroll-buttons">
+            <button onclick="scrollUp()">⬆</button>
+            <div class="middle-buttons">
+                <button onclick="scrollLeft()">⬅</button>
+                <button onclick="scrollRight()">➡</button>
+            </div>
+            <button onclick="scrollDown()">⬇</button>
+        </div>
+
+        <!-- Scrollable Table -->
+        <div class="table-wrapper" id="scrollContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SurName</th>
+                        <th>Student_Name</th>
+                        <th>Father_Name</th>
+                        <th>Enrollment_No</th>
+                        <th>Email_id</th>
+                        <th>S_contact_No</th>
+                        <th>Institute</th>
+                        <th>Batch</th>
+                        <th>Department</th>
+                        <th>Hostel_Block_No</th>
+                        <th>Hostel_Room_No</th>
+                        <th>Address_Line1</th>
+                        <th>Address_Line2</th>
+                        <th>s_DOB</th>
+                        <th>P_Full_Name</th>
+                        <th>P_contact_No_1</th>
+                        <th>P_contact_No_2</th>
+                        <th>P_email_id</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shah</td>
+                        <td>Rahul</td>
+                        <td>Ramesh</td>
+                        <td>123456</td>
+                        <td>rahul@example.com</td>
+                        <td>9876543210</td>
+                        <td>GUNI</td>
+                        <td>2025</td>
+                        <td>CS</td>
+                        <td>A1</td>
+                        <td>101</td>
+                        <td>Ahmedabad</td>
+                        <td>Gujarat</td>
+                        <td>2003-05-10</td>
+                        <td>Ramesh Shah</td>
+                        <td>9123456789</td>
+                        <td>9012345678</td>
+                        <td>ramesh@example.com</td>
+                    </tr>
+                    <!-- More student rows here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScript Linked -->
+
+</body>
+</html>

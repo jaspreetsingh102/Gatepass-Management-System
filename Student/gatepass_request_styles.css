@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    overflow: hidden; /* Prevent scrolling outside the page */
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent content from overflowing */
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    margin-top: 20px;
+    width: 200px; /* Adjusted width to make the sidebar narrower */
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.avatar {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+nav ul li button {
+    width: 100%; /* Ensure the button takes the full width */
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left; /* Align text to the left */
+    cursor: pointer;
+    display: block; /* Ensure the button is a block element */
+}
+.logout {
+    margin-top: auto;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.submit {
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

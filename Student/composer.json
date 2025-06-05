@@ -1,0 +1,12 @@
+{
+    "name": "vendor/student",
+    "description": "php mailer",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Student\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

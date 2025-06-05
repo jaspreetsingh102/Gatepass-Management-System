@@ -1,0 +1,79 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    overflow: hidden; /* Prevent scrolling outside the page */
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 200px; /* Adjusted width to make the sidebar narrower */
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.avatar {
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+ul li {
+    display: block; /* Ensure each button is on its own line */
+    width: 100%; /* Ensure the button takes the full width */
+    padding: 10px;
+    cursor: pointer;
+}
+ul li button {
+    width: 100%; /* Ensure the button takes the full width */
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left; /* Align text to the left */
+    cursor: pointer;
+    display: block; /* Ensure the button is a block element */
+}
+ul li button:hover {
+    background: rgba(255, 255, 255, 0.1); /* Add a hover effect */
+}
+button.logout {
+    margin-top: auto;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center; /* Center the text inside the button */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    flex-direction: column; /* Ensure labels are in a column */
+    justify-content: flex-start; /* Align labels to the top */
+    align-items: flex-start; /* Align labels to the left */
+    padding: 40px; /* Add padding */
+    color: white;
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+    max-height: 100vh; /* Prevent content from overflowing the viewport */
+}
+.content h3 {
+    margin: 10px 0; /* Add margin to each label */
+}

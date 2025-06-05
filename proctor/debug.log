@@ -1,0 +1,239 @@
+Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Fetched Data: Array
+(
+    [Enrollment_No] => 23012012001
+    [Reason] => visite home 
+    [Location] => mehsana 
+    [Leaving_Date] => 0000-00-00
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Date] => 0000-00-00
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Approved
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Rejected
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Approved
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Approved
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Rejected
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Approved
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Approved
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Rejected
+)
+Fetched Data: Array
+(
+    [Leaving_Time] => 2003-12-13 05:00:00.00000
+    [Returning_Time] => 2003-12-13 06:00:00.00000
+    [Status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+Received Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:17:10] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:17:53] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:18:14] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:18:34] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:18:34] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+[2025-05-15 07:18:35] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:19:19] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:21:00] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Rejected
+)
+[2025-05-15 07:21:09] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
+[2025-05-15 07:21:10] Data: Array
+(
+    [enrollment_no] => 23012012001
+    [status] => Approved
+)
